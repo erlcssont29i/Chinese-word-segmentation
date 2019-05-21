@@ -20,8 +20,7 @@ linstall.packages(wordcloud2)
 6. 过滤掉step5中,特定條件的詞
 7. 过滤掉只**出现过一次**的词
 8. 频数排序
-9. 詞彙頻率圖 ![gemo_bar](https://github.com/erlcssont29i/Chinese-word-segmentation/blob/master/demo_bar_0515.jpeg)
-10. 文字雲
+9. 詞彙頻率圖&文字雲 ![gemo_bar](https://github.com/erlcssont29i/Chinese-word-segmentation/blob/master/demo_bar_0515.jpeg)
 ![123](https://github.com/erlcssont29i/Chinese-word-segmentation/blob/master/wordcloud0515.jpeg)
 
 ## R functions
