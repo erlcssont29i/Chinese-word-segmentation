@@ -1,6 +1,6 @@
 ## Introduce
 
-The famous R packages for Chinese word segmentation are Rwordseg and [jiebaR](https://github.com/qinwf/jiebaR), this case I use Jieba to segment **chines compamy name**
+The famous R packages for Chinese word segmentation are Rwordseg and [jiebaR](https://github.com/qinwf/jiebaR), this case I use JiebaR to segment **chines compamy name**
 
 ```
 install.packages('jiebaRD')
