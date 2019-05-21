@@ -87,6 +87,8 @@ word.freq_2= word.freq_2[order(-word.freq_2$freq),]
 # 詞彙頻率圖
 library(ggplot2)
 
+ggplot(word.freq_2_top50, aes(x=reorder(char,-freq), y=freq)) + geom_bar(stat="identity", fill="lightblue", colour="black")+
+       geom_text(aes(label=freq), vjust=-0.2)+theme(axis.text.x = element_text(angle = 45, hjust = 0.5, vjust = 0.5))
 
 
 # 文字雲
