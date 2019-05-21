@@ -87,17 +87,21 @@ word.freq_2= word.freq_2[order(-word.freq_2$freq),]
 # 詞彙頻率圖
 library(ggplot2)
 
-ggplot(word.freq_2_top50, aes(x=reorder(char,-freq), y=freq)) + geom_bar(stat="identity", fill="lightblue", colour="black")+
-       geom_text(aes(label=freq), vjust=-0.2)+theme(axis.text.x = element_text(angle = 45, hjust = 0.5, vjust = 0.5))
+word.freq_2_top50 <- head(word.freq_2,50) #取前50个词
+word.freq_2_top150 <- head(word.freq_2,150) #取前150个词
+word.freq_2_top200 <- head(word.freq_2,200) #取前200个词
+word.freq_2_top300 <- head(word.freq_2,300) #取前300个词
+
+ggplot(word.freq_2_top50, aes(x=reorder(char,-freq), y=freq)) 
+        + geom_bar(stat="identity", fill="lightblue", colour="black")
+        +geom_text(aes(label=freq), vjust=-0.2)
+        +theme(axis.text.x = element_text(angle = 45, hjust = 0.5, vjust = 0.5))
 
 
 # 文字雲
 library(wordcloud)
-mycolors<- brewer.pal(8,"Dark2")
-windowsFonts(myFont=windowsFont("华文彩云"))
-weibo.top150 <- head(word.freq_2,150) #取前150个词
+library(wordcloud2)
 
-
-wordcloud(word.freq_2$char,word.freq_2$freq,random.order=FALSE,
-random.color=FALSE,colors=mycolors,family="myFont")
+wordcloud2(word.freq_2_top300 #word.freq_2[3:200,])
+          ,size = 2,color = 'random-dark', backgroundColor = "white",fontFamily = "微软雅黑")
 
