@@ -3,12 +3,11 @@
 The famous R packages for Chinese word segmentation are Rwordseg and [jiebaR](https://github.com/qinwf/jiebaR), this case I use Jieba to segment **chines compamy name**
 
 ```
-install.packages("jiebaR")
-library('jiebaRD')
-library('jiebaR')
-library(readxl)
-library(ggplot2)
-library(wordcloud)
+install.packages('jiebaRD')
+install.packages('jiebaR')
+install.packages(readxl)
+install.packages(ggplot2)
+linstall.packages(wordcloud)
 ```
 ## Steps:
 1. 導入數據
