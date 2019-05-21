@@ -33,7 +33,7 @@ linstall.packages(wordcloud2)
 - 文字雲: wordcloud( ) 
 
 ## Other reference :
-- [搜狗詞庫](https://pinyin.sogou.com/dict/cate/index/167)
+- [搜狗詞庫](https://pinyin.sogou.com/dict/cate/index/167) ![123](https://github.com/erlcssont29i/Chinese-word-segmentation/blob/master/%E6%90%9C%E7%8B%97%E8%A9%9E%E5%BA%AB.png)
 
 - About jiebaR:
 
