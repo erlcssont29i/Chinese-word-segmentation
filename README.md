@@ -46,4 +46,6 @@ linstall.packages(wordcloud2)
 - [subset如何表达符合多个条件](https://www.douban.com/group/topic/63379757/)
 - [數據框排序](https://www.cnblogs.com/emanlee/p/4255898.html)
 - [R中排序函数总结](https://blog.csdn.net/kelanj/article/details/80945540)
+- [ggplot2包介绍学习](http://www.cnblogs.com/nxld/p/6059603.html)
+- [绘制条形图（ggplot2）](https://blog.csdn.net/qq_42564846/article/details/82786533)
 
