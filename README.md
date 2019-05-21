@@ -30,7 +30,7 @@ library(readxl)
 
 ## Other reference:
 
-- Abiut jiebaR:
+- About jiebaR:
 
     - https://blog.csdn.net/wangishero/article/details/52570505
     - https://blog.csdn.net/sinat_26917383/article/details/51056068
