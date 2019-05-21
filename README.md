@@ -8,6 +8,8 @@ install.packages('jiebaR')
 install.packages(readxl)
 install.packages(ggplot2)
 linstall.packages(wordcloud)
+linstall.packages(wordcloud2)
+
 ```
 ## Steps:
 1. 導入數據
