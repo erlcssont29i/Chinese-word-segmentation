@@ -14,15 +14,12 @@ words<- segment(company$company_name,wk)
 words<- subset(words,nchar(as.character(words))>1)
 
 # 計算詞頻
-
 # test.freq =table(unlist(test))
-word.freq = freq(words)#<- table(unlist(test))
+word.freq = freq(words) #<- table(unlist(test))
 #test.freq = freq(unlist(test))#<- table(unlist(test))
 #test.freg= test.freq[order(-test.freq)]
 
 #过滤掉特定條件
-   r语言常用函数apply及subset函数: https://blog.csdn.net/lijinxiu123/article/details/51378700
-
 nono<-c('公司','有限公司','有限责任','分公司','实业公司','jingdiejn','chengpu','qiyu','shanxiang','ruiwen','jindi','jinhong','leichi',
         'jinchuang','ynsw','yingyao','chuangyou','benyi','jiuyi','diejin','pntest','nrsm','ydzq','tianqi','baodiesh')
 
