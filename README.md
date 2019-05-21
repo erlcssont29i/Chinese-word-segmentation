@@ -33,6 +33,7 @@ linstall.packages(wordcloud2)
 - 文字雲: wordcloud( ) 
 
 ## Other reference :
+- [搜狗詞庫](https://pinyin.sogou.com/dict/cate/index/167)
 
 - About jiebaR:
 
