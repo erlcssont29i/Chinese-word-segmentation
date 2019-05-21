@@ -30,7 +30,7 @@ linstall.packages(wordcloud2)
 - with( ),which( )
 - 子集(不)符合多條件: subset( )
 - 排序: sort( ),rank( ),order( )
-- 文字雲: wordcloud( ) 
+- 文字雲: wordcloud2( ) 
 
 ## Other reference :
 - [搜狗詞庫](https://pinyin.sogou.com/dict/cate/index/167) ![123](https://github.com/erlcssont29i/Chinese-word-segmentation/blob/master/%E6%90%9C%E7%8B%97%E8%A9%9E%E5%BA%AB.png)
