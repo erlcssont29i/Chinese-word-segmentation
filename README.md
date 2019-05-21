@@ -20,13 +20,13 @@ library(readxl)
 10. 文字雲
 
 ## R functions
-- 分詞器&分詞:worker(),  segment()
-- 詞頻: freq()
-- 關鍵詞比對:grep()
-- with(),which()
-- 子集(不)符合多條件:subset()
-- 排序:sort(),rank(),order()
-- 文字雲: wordcloud()
+- 分詞器&分詞: worker( ),  segment( )
+- 詞頻: freq( )
+- 關鍵詞比對:grep( )
+- with( ),which( )
+- 子集(不)符合多條件: subset( )
+- 排序: sort( ),rank( ),order( )
+- 文字雲: wordcloud( )
 
 ## Other reference:
 
