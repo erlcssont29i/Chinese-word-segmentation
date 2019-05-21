@@ -17,7 +17,7 @@ library(readxl)
 7. 过滤掉只出现过一次的词
 8. 频数排序
 9. 詞彙頻率圖
-10. 文字雲
+10. 文字雲 ![文字雲](https://github.com/erlcssont29i/Chinese-word-segmentation/blob/master/wordcloud_20190515.png)
 
 ## R functions
 - 分詞器&分詞: worker( ),  segment( )
@@ -26,8 +26,7 @@ library(readxl)
 - with( ),which( )
 - 子集(不)符合多條件: subset( )
 - 排序: sort( ),rank( ),order( )
-- 文字雲: wordcloud( ) ![123](https://github.com/erlcssont29i/Chinese-word-segmentation/blob/master/wordcloud_20190515.png)
-
+- 文字雲: wordcloud( ) 
 
 ## Other reference:
 
