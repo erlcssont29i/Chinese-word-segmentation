@@ -30,7 +30,7 @@ linstall.packages(wordcloud)
 - 排序: sort( ),rank( ),order( )
 - 文字雲: wordcloud( ) 
 
-## Other reference:
+## Other reference :
 
 - About jiebaR:
 
