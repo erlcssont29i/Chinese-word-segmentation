@@ -26,7 +26,8 @@ library(readxl)
 - with( ),which( )
 - 子集(不)符合多條件: subset( )
 - 排序: sort( ),rank( ),order( )
-- 文字雲: wordcloud( )
+- 文字雲: wordcloud( ) ![123](https://github.com/erlcssont29i/Chinese-word-segmentation/blob/master/wordcloud_20190515.png)
+
 
 ## Other reference:
 
