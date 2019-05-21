@@ -16,7 +16,7 @@ linstall.packages(wordcloud)
 4. 計算詞頻
 5. 創建要過濾掉的詞(例如"省","市","县","有限公司"...)
 6. 过滤掉特定條件
-7. 过滤掉只出现过一次的词
+7. 过滤掉只**出现过一次**的词
 8. 频数排序
 9. 詞彙頻率圖
 10. 文字雲 ![文字雲](https://github.com/erlcssont29i/Chinese-word-segmentation/blob/master/wordcloud_20190515.png)
