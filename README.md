@@ -22,6 +22,7 @@ linstall.packages(wordcloud2)
 8. 频数排序
 9. 詞彙頻率圖&文字雲 ![gemo_bar](https://github.com/erlcssont29i/Chinese-word-segmentation/blob/master/demo_bar_0515.jpeg)
 ![123](https://github.com/erlcssont29i/Chinese-word-segmentation/blob/master/wordcloud0515.jpeg)
+10. 對原字段進行關鍵詞匹配歸類
 
 ## R functions
 - 分詞器&分詞: worker( ),  segment( )
